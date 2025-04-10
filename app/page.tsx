@@ -1,3 +1,5 @@
+"use client";
+
 import dynamic from "next/dynamic";
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
