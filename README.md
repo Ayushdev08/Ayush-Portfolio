@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧑‍💻 Ayush Varma – Developer Portfolio
 
-## Getting Started
+This is my personal **portfolio website** built using **Next.js 14** and **Tailwind CSS**. It highlights my projects, skills, experience, and contact details – everything you need to know about me as a full-stack web developer.
 
-First, run the development server:
+> Built with ⚡️ Next.js App Router and styled with 💨 Tailwind CSS
+
+---
+
+## 🚀 Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Fonts:** Optimized with [`next/font`](https://nextjs.org/docs/basic-features/font-optimization)
+- **Deployment:** [Vercel](https://vercel.com/)
+- **Version Control:** Git + GitHub
+
+---
+
+## 📸 Preview
+
+![Portfolio Screenshot](public/preview.png)
+
+---
+
+## 📂 Project Structure
+
+├── app/ # App directory (Next.js App Router) │ └── page.tsx # Main landing page ├── components/ # Reusable components ├── public/ # Static assets ├── styles/ # Global CSS and Tailwind config ├── utils/ # Utility functions (if any) ├── README.md # Project documentation └── next.config.js # Next.js configuration
+
+
+---
+
+## 🛠 Getting Started
+
+To run the project locally:
 
 ```bash
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
+
+# Visit: http://localhost:3000
+Or use:
+
 yarn dev
-# or
 pnpm dev
-# or
 bun dev
-```
+📦 Deployment
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project is deployed using Vercel – the easiest way to deploy Next.js apps.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Deploy your own with one click:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+📚 Learn More
 
-## Learn More
+Next.js Documentation
+Tailwind CSS Docs
+Learn Next.js
+📬 Connect with Me
 
-To learn more about Next.js, take a look at the following resources:
+🔗 LinkedIn
+💻 GitHub
+📧 Email: your.email@example.com
+©️ License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is open source and available under the MIT License.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Designed and developed with ❤️ by Ayush Varma
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you want, I can also:
+- Add a section for your **featured projects** from a `projects.json`.
+- Auto-update the year/license.
+- Generate a live screenshot preview using a Vercel deployment link.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Just let me know what else you'd like!
