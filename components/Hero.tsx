@@ -1,8 +1,17 @@
+"use client";
+
 import React from "react";
-import { Spotlight } from "./ui/Spotlight";
-import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import dynamic from "next/dynamic";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
+
+// Dynamically import components with SSR disabled
+const Spotlight = dynamic(() => import("./ui/Spotlight"), {
+  ssr: false,
+});
+const TextGenerateEffect = dynamic(() => import("./ui/TextGenerateEffect"), {
+  ssr: false,
+});
 
 const Hero = () => {
   return (
