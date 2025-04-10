@@ -1,11 +1,14 @@
+import dynamic from "next/dynamic";
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
-import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
+
+// Dynamically import Hero component with SSR disabled
+const Hero = dynamic(() => import("@/components/Hero"), { ssr: false });
 
 export default function Home() {
   return (
