@@ -2,14 +2,12 @@
 
 import React from "react";
 import dynamic from "next/dynamic";
+import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
 
-// Dynamically import components with SSR disabled
-const Spotlight = dynamic(() => import("./ui/Spotlight"), {
-  ssr: false,
-});
-const TextGenerateEffect = dynamic(() => import("./ui/TextGenerateEffect"), {
+// ✅ Dynamically import Spotlight with `ssr: false` and proper typing
+const Spotlight = dynamic(() => import("./ui/Spotlight").then((mod) => mod.Spotlight), {
   ssr: false,
 });
 
