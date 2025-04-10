@@ -115,5 +115,8 @@
 ::-webkit-scrollbar-corner {
   background: #06091f; /* Match the track's background */
 }
+html {
+  scroll-behavior: smooth;
+}
 
 
