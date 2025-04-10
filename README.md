@@ -59,9 +59,9 @@ Tailwind CSS Docs
 Learn Next.js
 📬 Connect with Me
 
-🔗 LinkedIn
-💻 GitHub
-📧 Email: your.email@example.com
+🔗 LinkedIn : ayush-varma03
+💻 GitHub : Ayushdev08
+📧 Email: varmaayush591@example.com
 ©️ License
 
 This project is open source and available under the MIT License.
